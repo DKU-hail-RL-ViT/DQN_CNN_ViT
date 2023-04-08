@@ -246,6 +246,7 @@ steps_done = 0
 
 
 
+
 episodes_trajectories = []
 episodes_after_stop = 100
 
@@ -340,7 +341,8 @@ for j in range(runs):
                 mean = mean/args.last_episodes_num
                 if mean < args.training_stop and stop_training == False:
                     loss = optimize_model(memory)
-                    log['training/loss'] = loss
+                    if loss is not None:
+                        log['training/loss'] = loss.item()
                 else:
                     stop_training = True
                 break

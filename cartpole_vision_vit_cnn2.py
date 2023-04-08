@@ -183,7 +183,7 @@ def optimize_model(memory):
         param.grad.data.clamp_(-1, 1)
     optimizer.step()
 
-    return loss.item()
+    return loss
 
 
 graph_name = 'cartpole_vision'

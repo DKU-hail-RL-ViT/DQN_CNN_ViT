@@ -345,6 +345,7 @@ for j in range(runs):
                         log['training/loss'] = loss.item()
                 else:
                     stop_training = True
+                wandb.log(log)
                 break
             wandb.log(log)
 

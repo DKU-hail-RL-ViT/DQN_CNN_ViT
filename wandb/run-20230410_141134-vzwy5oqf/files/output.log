@@ -1,0 +1,29 @@
+
+Run:  0
+
+
+
+
+
+
+
+
+
+
+
+
+
+  0%|          | 361/300000 [00:29<6:45:02, 12.33it/s]
+Traceback (most recent call last):
+  File "/media/dongjae/6E708DD6708DA605/DQN_CNN_ViT/main.py", line 305, in <module>
+    action = select_action(state.to(device), stop_training).detach().to('cpu')
+  File "/media/dongjae/6E708DD6708DA605/DQN_CNN_ViT/main.py", line 134, in select_action
+    return policy_net(state).max(1)[1].view(1, 1)
+  File "/home/dongjae/anaconda3/envs/DQN_CNN_ViT/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/media/dongjae/6E708DD6708DA605/DQN_CNN_ViT/models.py", line 252, in forward
+    x = F.relu(self.bn1(self.conv1(x)))
+  File "/home/dongjae/anaconda3/envs/DQN_CNN_ViT/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/dongjae/anaconda3/envs/DQN_CNN_ViT/lib/python3.8/site-packages/torch/nn/modules/batchnorm.py", line 151, in forward
+    self.num_batches_tracked.add_(1)  # type: ignore[has-type]

@@ -1,0 +1,98 @@
+wandb_version: 1
+
+run_name:
+  desc: null
+  value: dqn
+gamma:
+  desc: null
+  value: 0.999
+epsilon_start:
+  desc: null
+  value: 0.9
+epsilon_end:
+  desc: null
+  value: 0.01
+epsilon_decay:
+  desc: null
+  value: 3000
+target_update:
+  desc: null
+  value: 50
+memory_size:
+  desc: null
+  value: 100000
+batch_size:
+  desc: null
+  value: 128
+end_score:
+  desc: null
+  value: 200
+training_stop:
+  desc: null
+  value: 142
+n_episodes:
+  desc: null
+  value: 300000
+last_episodes_num:
+  desc: null
+  value: 20
+frames:
+  desc: null
+  value: 2
+resize_pixels:
+  desc: null
+  value: 60
+hidden_layer_1:
+  desc: null
+  value: 64
+hidden_layer_2:
+  desc: null
+  value: 64
+hidden_layer_3:
+  desc: null
+  value: 32
+kernel_size:
+  desc: null
+  value: 5
+stride:
+  desc: null
+  value: 2
+grayscale:
+  desc: null
+  value: true
+load_model:
+  desc: null
+  value: false
+dropout:
+  desc: null
+  value: 0.0
+use_cuda:
+  desc: null
+  value: true
+_wandb:
+  desc: null
+  value:
+    python_version: 3.8.16
+    cli_version: 0.14.1
+    framework: torch
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    start_time: 1681103494.35121
+    t:
+      1:
+      - 1
+      - 41
+      - 55
+      2:
+      - 1
+      - 41
+      - 55
+      3:
+      - 16
+      - 17
+      - 23
+      - 37
+      4: 3.8.16
+      5: 0.14.1
+      8:
+      - 5

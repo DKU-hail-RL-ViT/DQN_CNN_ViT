@@ -1,0 +1,165 @@
+{
+    "os": "Linux-5.19.0-38-generic-x86_64-with-glibc2.17",
+    "python": "3.8.16",
+    "heartbeatAt": "2023-04-10T05:11:36.191125",
+    "startedAt": "2023-04-10T05:11:34.346396",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "/media/dongjae/6E708DD6708DA605/DQN_CNN_ViT/main.py",
+    "codePath": "main.py",
+    "git": {
+        "remote": "https://github.com/DKU-hail-RL-ViT/DQN_CNN_ViT.git",
+        "commit": "326fba6dbc43b4f6118702bfac188f3c01ed2242"
+    },
+    "email": "dongjaekim@dankook.ac.kr",
+    "root": "/media/dongjae/6E708DD6708DA605/DQN_CNN_ViT",
+    "host": "gpu2",
+    "username": "dongjae",
+    "executable": "/home/dongjae/anaconda3/envs/DQN_CNN_ViT/bin/python",
+    "cpu_count": 16,
+    "cpu_count_logical": 24,
+    "cpu_freq": {
+        "current": 3909.678416666666,
+        "min": 800.0,
+        "max": 4950.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 5300.066,
+            "min": 800.0,
+            "max": 5300.0
+        },
+        {
+            "current": 3400.0,
+            "min": 800.0,
+            "max": 5300.0
+        },
+        {
+            "current": 5299.92,
+            "min": 800.0,
+            "max": 5300.0
+        },
+        {
+            "current": 5300.151,
+            "min": 800.0,
+            "max": 5300.0
+        },
+        {
+            "current": 5300.159,
+            "min": 800.0,
+            "max": 5300.0
+        },
+        {
+            "current": 3400.0,
+            "min": 800.0,
+            "max": 5300.0
+        },
+        {
+            "current": 4746.836,
+            "min": 800.0,
+            "max": 5300.0
+        },
+        {
+            "current": 3400.0,
+            "min": 800.0,
+            "max": 5300.0
+        },
+        {
+            "current": 5300.0,
+            "min": 800.0,
+            "max": 5400.0
+        },
+        {
+            "current": 5360.254,
+            "min": 800.0,
+            "max": 5400.0
+        },
+        {
+            "current": 5324.159,
+            "min": 800.0,
+            "max": 5400.0
+        },
+        {
+            "current": 3400.0,
+            "min": 800.0,
+            "max": 5400.0
+        },
+        {
+            "current": 5300.0,
+            "min": 800.0,
+            "max": 5300.0
+        },
+        {
+            "current": 5300.748,
+            "min": 800.0,
+            "max": 5300.0
+        },
+        {
+            "current": 5299.792,
+            "min": 800.0,
+            "max": 5300.0
+        },
+        {
+            "current": 3400.0,
+            "min": 800.0,
+            "max": 5300.0
+        },
+        {
+            "current": 3400.0,
+            "min": 800.0,
+            "max": 4200.0
+        },
+        {
+            "current": 3400.0,
+            "min": 800.0,
+            "max": 4200.0
+        },
+        {
+            "current": 3400.0,
+            "min": 800.0,
+            "max": 4200.0
+        },
+        {
+            "current": 3400.0,
+            "min": 800.0,
+            "max": 4200.0
+        },
+        {
+            "current": 3400.0,
+            "min": 800.0,
+            "max": 4200.0
+        },
+        {
+            "current": 4135.779,
+            "min": 800.0,
+            "max": 4200.0
+        },
+        {
+            "current": 3400.0,
+            "min": 800.0,
+            "max": 4200.0
+        },
+        {
+            "current": 3400.0,
+            "min": 800.0,
+            "max": 4200.0
+        }
+    ],
+    "disk": {
+        "total": 457.37467193603516,
+        "used": 105.75299453735352
+    },
+    "gpu": "NVIDIA GeForce RTX 3070",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce RTX 3070",
+            "memory_total": 8589934592
+        }
+    ],
+    "memory": {
+        "total": 62.61793518066406
+    }
+}

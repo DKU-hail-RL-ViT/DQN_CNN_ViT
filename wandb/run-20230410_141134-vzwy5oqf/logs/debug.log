@@ -1,0 +1,26 @@
+2023-04-10 14:11:34,347 INFO    MainThread:574786 [wandb_setup.py:_flush():76] Configure stats pid to 574786
+2023-04-10 14:11:34,348 INFO    MainThread:574786 [wandb_setup.py:_flush():76] Loading settings from /home/dongjae/.config/wandb/settings
+2023-04-10 14:11:34,348 INFO    MainThread:574786 [wandb_setup.py:_flush():76] Loading settings from /media/dongjae/6E708DD6708DA605/DQN_CNN_ViT/wandb/settings
+2023-04-10 14:11:34,348 INFO    MainThread:574786 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-04-10 14:11:34,348 INFO    MainThread:574786 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-04-10 14:11:34,348 INFO    MainThread:574786 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'main.py', 'program': '/media/dongjae/6E708DD6708DA605/DQN_CNN_ViT/main.py'}
+2023-04-10 14:11:34,348 INFO    MainThread:574786 [wandb_init.py:_log_setup():507] Logging user logs to /media/dongjae/6E708DD6708DA605/DQN_CNN_ViT/wandb/run-20230410_141134-vzwy5oqf/logs/debug.log
+2023-04-10 14:11:34,348 INFO    MainThread:574786 [wandb_init.py:_log_setup():508] Logging internal logs to /media/dongjae/6E708DD6708DA605/DQN_CNN_ViT/wandb/run-20230410_141134-vzwy5oqf/logs/debug-internal.log
+2023-04-10 14:11:34,348 INFO    MainThread:574786 [wandb_init.py:init():547] calling init triggers
+2023-04-10 14:11:34,348 INFO    MainThread:574786 [wandb_init.py:init():554] wandb.init called with sweep_config: {}
+config: {'run_name': 'dqn', 'gamma': 0.999, 'epsilon_start': 0.9, 'epsilon_end': 0.01, 'epsilon_decay': 3000, 'target_update': 50, 'memory_size': 100000, 'batch_size': 128, 'end_score': 200, 'training_stop': 142, 'n_episodes': 300000, 'last_episodes_num': 20, 'frames': 2, 'resize_pixels': 60, 'hidden_layer_1': 64, 'hidden_layer_2': 64, 'hidden_layer_3': 32, 'kernel_size': 5, 'stride': 2, 'grayscale': True, 'load_model': False, 'dropout': 0.0, 'use_cuda': True}
+2023-04-10 14:11:34,348 INFO    MainThread:574786 [wandb_init.py:init():595] starting backend
+2023-04-10 14:11:34,348 INFO    MainThread:574786 [wandb_init.py:init():599] setting up manager
+2023-04-10 14:11:34,349 INFO    MainThread:574786 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2023-04-10 14:11:34,351 INFO    MainThread:574786 [wandb_init.py:init():605] backend started and connected
+2023-04-10 14:11:34,353 INFO    MainThread:574786 [wandb_init.py:init():695] updated telemetry
+2023-04-10 14:11:34,371 INFO    MainThread:574786 [wandb_init.py:init():732] communicating run to backend with 60.0 second timeout
+2023-04-10 14:11:34,842 INFO    MainThread:574786 [wandb_run.py:_on_init():2176] communicating current version
+2023-04-10 14:11:36,173 INFO    MainThread:574786 [wandb_run.py:_on_init():2185] got version response upgrade_message: "wandb version 0.14.2 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2023-04-10 14:11:36,173 INFO    MainThread:574786 [wandb_init.py:init():782] starting run threads in backend
+2023-04-10 14:11:37,944 INFO    MainThread:574786 [wandb_run.py:_console_start():2157] atexit reg
+2023-04-10 14:11:37,944 INFO    MainThread:574786 [wandb_run.py:_redirect():2012] redirect: SettingsConsole.WRAP_RAW
+2023-04-10 14:11:37,944 INFO    MainThread:574786 [wandb_run.py:_redirect():2077] Wrapping output streams.
+2023-04-10 14:11:37,944 INFO    MainThread:574786 [wandb_run.py:_redirect():2102] Redirects installed.
+2023-04-10 14:11:37,944 INFO    MainThread:574786 [wandb_init.py:init():824] run started, returning control to user process

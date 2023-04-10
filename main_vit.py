@@ -30,7 +30,7 @@ import wandb
 # make arg parser and puts every hyperparameter in it
 import argparse
 parser = argparse.ArgumentParser(description='PyTorch CartPole-v4 DQN and ViT Example')
-parser.add_argument('--run-name', default="dqn", type=str, metavar='N',
+parser.add_argument('--run-name', default="vit", type=str, metavar='N',
                     help='Name of the run (default: vit, possible values: dqn, vit)')
 parser.add_argument('--gamma', type=float, default=0.999, metavar='G',
                     help='discount factor for target Q (default: 0.999)')
@@ -285,8 +285,8 @@ for j in range(runs):
     memory = ReplayMemory(args.memory_size)
 
     count_final = 0
+    
     steps_done = 0
-
     episode_durations = []
     for i_episode in tqdm(range(args.n_episodes)):
         # Initialize the environment and state
@@ -359,9 +359,9 @@ for j in range(runs):
         # if i_episode % TARGET_UPDATE == 0:
         #     target_net.load_state_dict(policy_net.state_dict())
         # if stop_training == True:
-        #    count_final += 1
-        #    if count_final >= 100:
-        #       break
+        #     count_final += 1
+        #     if count_final >= 100:
+        #         break
 
             
     print('Complete')

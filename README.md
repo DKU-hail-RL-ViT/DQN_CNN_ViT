@@ -1,2 +1,1 @@
-# DQN_CNN_ViT
-## HELLO
+# DQN

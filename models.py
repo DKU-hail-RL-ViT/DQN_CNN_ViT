@@ -138,6 +138,8 @@ class ViT(nn.Sequential):
 
 		#parse args and get variables
 		self.args = args
+		self.embedding_dim = args.embedding_dim
+		self.depth = args.depth
 		self.HIDDEN_LAYER_1 = args.hidden_layer_1
 		self.HIDDEN_LAYER_2 = args.hidden_layer_2
 		self.HIDDEN_LAYER_3 = args.hidden_layer_3
@@ -163,8 +165,8 @@ class ViT(nn.Sequential):
 			nn_inputs = self.FRAMES  # number of channels for the nn
 
 		super().__init__(
-			PatchEmbedding(in_channels, patch_size, emb_size, img_size),
-			TransformerEncoder(depth, emb_size=emb_size, **kwargs),
+			PatchEmbedding(in_channels, patch_size, self.embedding_dim, img_size),
+			TransformerEncoder(self.depth, emb_size=emb_size, **kwargs),
 
 		)
 
